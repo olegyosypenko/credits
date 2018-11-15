@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    margin: 20px 15% 0;
+}
+.main-content {
+    margin: 0 15%;
+}
+
+.table {
+    overflow: hidden;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 5px 5px 20px 4px rgba(0,0,0,0.35);
+    -moz-box-shadow: 5px 5px 20px 4px rgba(0,0,0,0.35);
+    box-shadow: 5px 5px 20px 4px rgba(0,0,0,0.35);
+}
+
+.table td, th {
+    padding: 7px 16px;
+    border: 1px solid lightgray;
+}
+th {
+    text-align: left;
+}
+/*.table tr:last-of-type td {
+    border: none;
+}*/
+
+.table tbody tr:hover {
+    background: lightblue;
+    cursor: pointer;
+}
+
+.green {
+    color: #38ac10;
+}
+.red {
+    color: orangered;
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    border: none;
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: white;
+    text-decoration: none;
+    background: #ee6262;
+    border-radius: 2px;
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    transition: all .25s ease;
+}
+.button:hover {
+    background: #dc4848;
+}
+.button:active {
+    outline: none;
+    background: #dc4848;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.65);
+}
+.button:focus {
+    outline: none;
+    background: #dc4848;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.65);
+}
+.logo {
+    display: inline-block;
+}
+    
+.language {
+    float: right;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #ee6262;
+    overflow: hidden;
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    box-shadow:  3px 3px 10px 0px rgba(0,0,0,0.35);
+}
+.language span {
+    display: inline-block;
+    padding: 8px 8px;
+    color: #ee6262;
+}
+
+.language .active  {
+    color: white;
+    background: #ee6262;
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.25);
+}
+
+.check-boxes {
+    margin-top: 5px;
+    margin-left: -4px;
+}
+
+.check {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.check-boxes span {    
+    vertical-align: bottom;
+    font-size: 17px;
+}
+
+select {
+    margin-bottom: 14px;
+    font-size: 17px;
+}
+
+h3 {
+    color: graytext;
+    width: 20%;
+    display: inline-block;
+    margin: 0 0 5px 0;
+    font-size: 17px;
+        
+}
+.credit-description span {
+    width: 70%;
+    display: inline-block
+}
